@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 
+/*
+ * 
+ * @utor is solomon
+ * Solomon is Awesome :) 
+ * 
+ * */
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String home(){
 		return "home/index";
